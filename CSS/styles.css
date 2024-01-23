@@ -1,0 +1,477 @@
+h1{
+  font-family: 'EB Garamond', serif;
+  padding-top: 100px;
+  text-align: center;
+}
+
+
+section div >h3 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  line-height: 1.5em;
+  position: relative;
+  top: 30px;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  color: #420000;
+}
+
+.exclusive {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  padding-top: 4%;
+  color: #FFF5E1;
+}
+
+h5 {
+  padding-left: 13%;
+}
+
+#title {
+  background-color: #420000;
+  color: #FFF5E1;
+
+}
+
+
+
+.write_Up2 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 1.0em;
+}
+
+.fa-solid {
+  color: black;
+  padding-right: 5px;
+  padding-left: 7%;
+}
+
+
+/* Navbar Section */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  text-align: center;
+  padding-right: 20px;
+}
+
+
+
+.nav-link {
+  color: black;
+  font-family: 'EB Garamond', serif;
+}
+
+
+.navbar-brand {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5rem;
+}
+
+
+
+.box1-Image {
+  width: 50%;
+  height: 80%;
+  position: relative;
+  top: 10%;
+
+}
+
+.box2-Image {
+  width: 30%;
+  position: relative;
+  left: 9.5%;
+  bottom: 12%;
+
+
+}
+
+.box3-Image {
+  width: 30%;
+  position: relative;
+  left: 60%;
+  bottom: 27%;
+
+}
+
+
+.box1-Image:hover, .box2-Image:hover, .box3-Image:hover, .box4-Image:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(0.9);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: 1;
+}
+
+
+
+
+/* Second Section */
+.box4-Image {
+  width: 33%;
+  border-radius: 20%;
+  position: relative;
+  left: 32%;
+}
+
+.home__shop {
+  padding: 4.8em;
+  background-color: #FFF5E1;
+  color: #420000;
+  font-family: 'Bodoni Moda', serif;
+}
+
+/* Text */
+.home__shop__rooms li {
+  border-top: 1px solid;
+  padding: 2em 1em;
+  font-family: 'Bodoni Moda', serif;
+
+}
+
+.home__shop__rooms li a {
+  text-decoration: none;
+  color: #420000;
+}
+
+.home__shop__rooms li:last-of-type {
+  border-bottom: 1px solid;
+}
+
+/* The Arrows */
+.home__shop__rooms li i {
+  position: absolute;
+  left: 90%;
+  color: #420000;
+}
+
+/* Line width */
+.home__shop__rooms {
+  width: 80%;
+  padding-bottom: 5%;
+  position: relative;
+  left: 9%;
+
+}
+
+
+
+
+
+
+/* Third Section */
+.third-sec {
+  background-color: #420000;
+  height: 800px;
+}
+
+.gallery {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  transform-style: preserve-3d;
+  animation: rotate 30s linear infinite;
+  margin-left: 40%;
+  height: 70vh;
+  display: grid;
+  place-items: center;
+}
+
+.gallery span {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 45deg)) translateZ(380px);
+}
+
+.gallery span img {
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  border-radius: 20%;
+}
+
+
+
+hr{
+  margin: 5px 0;
+   
+ }
+
+
+
+/* Footer Section */
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: #FFF5E1;
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #ff5e14;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #420000;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+font: 2.3vw oswald;
+}
+
+
+.cta-text span {
+color: #420000;
+font-size: 15px;
+}
+
+.footer-content {
+position: relative;
+z-index: 2;
+}
+
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+color: #420000;
+line-height: 28px;
+}
+
+
+.footer-social-icon span {
+  color: #420000;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #DD4B39;
+}
+.footer-widget-heading h4 {
+color: #420000;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+font: 2.3vw oswald;
+}
+.footer-widget-heading h4::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #ff5e14;
+}
+
+.footer-widget ul li {
+display: inline-block;
+width: 40%;
+margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover{
+color: #ff5e14;
+}
+.footer-widget ul li a {
+color: #420000;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
+
+
+
+
+@keyframes rotate {
+  from {
+    transform: perspective(1200px) rotateY(0deg);
+  }
+
+  to {
+    transform: perspective(1200px) rotateY(360deg);
+  }
+}
+
+
+
+
+@media (max-width: 1000px) {
+  h3 {
+    line-height: 1.1em;
+    font-size: 1.3em;
+  }
+
+  .exclusive  {
+    line-height: 1.1em;
+    font-size: 1.2em;
+    padding-top: 20%;
+  }
+
+  .fa-solid {
+    padding-left: 12%;
+  }
+
+  .navbar-brand {
+    margin-right: 11%;
+  }
+
+  .box4-Image {
+    margin-left: 5%;
+  }
+
+  .home__shop__rooms li i {
+    padding-left: 7%;
+  }
+
+  .gallery {
+    position: relative;
+    top: 10%;
+    width: 220px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+    margin-left: 40%;
+    height: 60vh;
+    display: grid;
+    place-items: center;
+  }
+}
+
+
+
+@media (max-width: 700px) {
+  .exclusive  {
+    line-height: 1.1em;
+    font-size: 1.0em;
+    padding-top: 40%;
+  }
+
+  h5 {
+    font-size: 1.3em;
+    padding-left: 19%;
+  }
+
+  .box1-Image {
+    position: relative;
+    left: 3%;
+  }
+
+  .home__shop {
+    line-height: 15px;
+    font-size: 0.7em;
+  }
+
+  .home__shop__rooms li i {
+    margin-left: 0;
+  }
+
+  .gallery {
+    position: relative;
+    top: 12%;
+    width: 150px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+    margin-left: 15%;
+    height: 40vh;
+    display: grid;
+    place-items: center;
+  }
+  .home__shop__rooms {
+    position: relative;
+    left: 5%;
+
+  }
+
+}

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dining Room</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/919de1f4fe.js" crossorigin="anonymous"></script>
+
+        <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+    <style>
+
+
+/* Navbar Section */
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding-right: 20px;
+  text-align: center;
+  z-index: 999;
+}
+
+.nav-link {
+  color: black;
+  font-family: 'EB Garamond', serif;
+}
+
+
+.navbar-brand {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5rem;
+}
+.fa-solid {
+  color: black;
+  padding-right: 5px;
+  padding-left: 4%;
+}
+
+
+
+/* First section */
+
+main{
+
+margin: 0 auto;
+background-color:  #420000;
+text-align: center;
+padding-top: 100px;
+
+}
+
+.write_up{
+font-family: 'EB Garamond', serif;
+color: #FFF5E1;
+}
+
+.column{
+float: left;
+width: 33.33%;
+padding: 5px;
+
+}
+
+row::after{
+content: "";
+display:table;
+clear: both;
+}
+
+div img{
+  border-radius: 10px;
+  margin-right:10px;
+  
+}
+.img50{
+position: relative;
+left: 40%;
+}
+.img51{
+position: relative;
+left: 60%;
+
+}
+
+.words50{
+position: relative;
+left: 35%;
+
+}
+
+.words51{
+position: relative;
+left: 63%;
+}
+
+    div h3{
+    color: #FFF5E1;
+    padding: 30px;
+    font-family: sans-serif;
+
+    }
+
+
+      div p > del{
+        color: #FFF5E1;
+        font-family: sans-serif;
+        font-size: small;
+        letter-spacing: 0.15rem;
+
+      }
+
+      div p > ins{
+        color: #FFF5E1;
+        font-family: sans-serif;
+        text-decoration: none;
+        font-size: small;
+        letter-spacing: 0.15rem;
+        padding: 10px;
+      }
+
+      div p > button {
+        background-color: #FFF5E1;
+        padding: 5px;
+        border-radius: 8px;
+        border-style: solid;
+        margin-bottom: 20px;
+
+      }
+
+      div button >a{
+        color: black;
+        text-decoration: none;
+        letter-spacing: 0.15rem;
+      }
+
+      div p > button:hover {
+        background-color: white;
+
+      }
+
+      div button >a:hover{
+        color: #420000;
+      }
+      div img{
+        border-radius: 10px;
+      }
+
+
+  hr{
+   margin: 5px 0;
+    
+  }
+
+
+  
+/* Footer Section */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #FFF5E1;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #420000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  font: 2.3vw oswald;
+}
+
+
+.cta-text span {
+  color: #420000;
+  font-size: 15px;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #420000;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #420000;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.footer-social-icon a {
+  color: white;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h4 {
+  color: #420000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+  font: 2.3vw oswald;
+}
+.footer-widget-heading h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+
+.footer-widget ul li {
+  display: inline-block;
+  
+  width: 40%;
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #420000;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #420000;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: white;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+
+
+ </style>
+ </head>
+
+
+
+
+   <body>
+
+   <nav class="navbar navbar-expand-lg navbar-light "style=" background-color: #FFF5E1;">
+     <i class="fa-solid fa-house"></i>
+     <a class="navbar-brand" href="index.html">Barry's Luxury</a>
+
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+     <ul class="navbar-nav ms-auto">
+         <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+         </li>
+        </ul>
+    </div>
+
+  </nav>
+
+
+
+   <main class="first-page">
+      <section class="photo-container">
+
+       <div class="write_up">
+         <h1>DINING ROOM <br>Presents,</h1>
+         <p>Dining Tables and Chairs.</p>
+       </div>
+
+       <div class="row">
+        <div class="column">
+              <img class="img50" src="images/din1.png" width="100%">
+              <div class="words50">
+                <h3>Sofa-1</h3>
+                  <p><del>$3,500/</del> <ins>2,450$/</ins></p>
+               <button type="button" name="Buy now"> <a href="#">Buy Now</a></button>
+              </div>
+        </div>
+      
+        <div class="column">
+            <img  class="img51"src="images/din2.JPG" width="100%">
+            <div class="words51">
+              <h3>Sofa-2</h3>
+                 <p> <del>$3,500/</del> <ins>2,450$/</ins></p>
+                <button type="button" name="Buy now"> <a href="#">Buy Now</a></button>
+              </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+                <img class="img50" src="images/din3.jpg" width="100%">
+                <div class="words50">
+                  <h3>Sofa-1</h3>
+                    <p><del>$3,500/</del> <ins>2,450$/</ins></p>
+                 <button type="button" name="Buy now"> <a href="#">Buy Now</a></button>
+                </div>
+          </div>
+        
+          <div class="column">
+              <img  class="img51"src="images/din4.JPG" width="100%">
+              <div class="words51">
+                <h3>Sofa-2</h3>
+                   <p> <del>$3,500/</del> <ins>2,450$/</ins></p>
+                  <button type="button" name="Buy now"> <a href="#">Buy Now</a></button>
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+                  <img class="img50" src="images/din5.jpg" width="100%">
+                  <div class="words50">
+                    <h3>Sofa-1</h3>
+                      <p><del>$3,500/</del> <ins>2,450$/</ins></p>
+                   <button type="button" name="Buy now"> <a href="#">Buy Now</a></button>
+                  </div>
+            </div>
+          
+            <div class="column">
+                <img  class="img51"src="images/din6.jpg" width="100%">
+                <div class="words51">
+                  <h3>Sofa-2</h3>
+                     <p> <del>$3,500/</del> <ins>2,450$/</ins></p>
+                    <button type="button" name="Buy now"> <a href="#">Buy Now</a></button>
+                  </div>
+              </div>
+            </div>
+       </section>
+    </main>
+
+
+
+    <hr width="100%"; color="#420000" size="5">
+
+
+    <!-- Footer Section  -->
+    
+    <footer class="footer-section">
+      <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <a href=""><i class="fas fa-map-marker-alt"></i></a>
+                          <div class="cta-text">
+                              <h4>Find us</h4>
+                              <span>119 Leicester Causeway, Coventry CV1 4HL</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <a href="07501133960"><i class="fas fa-phone"></i></a>
+                          <div class="cta-text">
+                              <h4>Call us</h4>
+                              <span>07501133960</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <a href="barry0074real@yahoo.com"><i class="far fa-envelope-open"></i></a>
+                          <div class="cta-text">
+                              <h4>Mail us</h4>
+                              <span>barry0074real@yahoo.com</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    
+    
+    
+          <div class="footer-content pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                            <h4>Barry's Furnitures!</h4>
+                              </div>
+                              <div class="footer-text">
+                               <p>We believe in the importance of specialization, despite the many fields of Compass Group in Turkey, 
+                                but we have a skilled integrated team, each one of whom specializes in a specific field and is always proficient, learning and developing.</p>
+                            </div>
+                          <div class="footer-social-icon">
+                       <span>Follow us</span>
+                    <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                 <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+            </div>
+          </div>
+              </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h4>Useful Links</h4>
+                              </div>
+                               <ul>
+                                  <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">about</a></li>
+                                 <li><a href="diningroom.html">Dining Room</a></li>
+                              <li><a href="Livingroom.html">Living Room</a></li>
+                            <li><a href="bedroom.html">Bed Room</a></li>
+                         <li><a href="#">Contact</a></li>
+                       </ul>
+                   </div>
+                </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h4>Subscribe</h4>
+                             </div>
+                                <div class="footer-text mb-25">
+                                   <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                   </div>
+                                  <div class="subscribe-form">
+                                   <form action="#">
+                                  <input type="text" placeholder="Email Address">
+                                  <button><i class="fab fa-telegram-plane"></i></button>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="copyright-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                      <div class="copyright-text">
+                          <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                      </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                      <div class="footer-menu">
+                          <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About</a></li>
+                              <li><a href="#">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </footer>
+    
+
+
+  </body>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</html>
